@@ -14,21 +14,21 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 123456  # integer value, dont use ""
+    API_ID = 25698862  # integer value, dont use ""
     API_HASH = "awoo"
-    TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 1378279047  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "Theshashank"
-    SUPPORT_CHAT = "NarutoSupport"  # Your own group for support, do not add the @
+    TOKEN = "8068521367:AAFHqYZnf7DnsSWFpN8bk_ffJ5Qe3giRbNw"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 7019600964  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "Uzumaki_X_Naruto_6"
+    SUPPORT_CHAT = "Animeheaven_community"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001253661229
+        -1002304401488
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001190806654
+        -1002515671821
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "sqlite:///naruto.db"  # needed for any database modules
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
