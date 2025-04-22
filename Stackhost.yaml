@@ -1,0 +1,15 @@
+user:
+  name: Naruto
+  github: Naruto777549649
+
+language: "python"
+python_version: "3.11"
+
+commands:
+  build:
+    - "pip install -r requirements.txt"
+  start:
+    - "python3 -m SaitamaRobot"
+
+env:
+  - "ENVIRONMENT=production"
